@@ -1,5 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <Input text="google"/>
+  <Input text="login"/>
 </template>
+
+<script>
+import Input from "../components/InputField";
+export default{
+  components: {
+    Input,
+  },
+  data(){
+    return{
+    }
+  }
+}
+</script>
